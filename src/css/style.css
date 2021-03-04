@@ -138,3 +138,7 @@ img {
 .nav__item--5 {
     grid-column: 8;
 }
+img {
+    width: 20px;
+    background-size: cover;
+}
