@@ -11,3 +11,46 @@ body {
     height: 100vh;
     font-family: sans-serif;
 }
+
+/* .container{
+    background-color: lightgray;
+    width: 80vw;
+    height: 50vh;
+ 
+} */
+/* .item-1 {
+    width: 50%;
+    height: 25vh;
+    background-color: aqua;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 20px;
+} */
+/* .item-2 {
+    width: 50%;
+    height: 25vh;
+    background-color: red;
+    position: relative;
+    z-index: -1;
+    top: 40px;
+    left: 40px;
+}
+.item-3 {
+    width: 50%;
+    height: 25vh;
+    background-color: purple;
+    position: relative;
+    z-index: 6;
+    top: 50px;
+    left: 60px;
+}
+.item-4 {
+    width: 50%;
+    height: 25vh;
+    background-color: yellow;
+    position: relative;
+    z-index: 4;
+    top: 100px;
+    left: 80px;
+} */
