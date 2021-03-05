@@ -288,6 +288,69 @@ p {
     grid-area: slider;
     background-color: white;
 }
+.area {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(8, 1fr);
+    background-color: #000;
+}
+.user {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    width: 75%;
+    height: 75%;
+    gap: 2px;
+
+    grid-template-areas: "perfil social1 social2 play";
+    justify-self: center;
+    align-self: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sing {
+    align-self: center;
+    justify-self: center;
+}
+.user__sing--1 {
+  grid-area: perfil;
+}
+.user__sing--2 {
+  grid-area: social1;
+}
+.user__sing--3 {
+ grid-area: social2;
+}
+.user__sing--4 {
+  grid-area: play;
+}
+.user:nth-of-type(2) {
+    grid-row: 2 / 3;
+}
+.user:nth-of-type(3) {
+    grid-row: 3 / 4;
+}
+.user:nth-of-type(4) {
+    grid-row: 4 / 5;
+}
+.user:nth-of-type(5) {
+    grid-row: 5 / 6;
+}
+.user:nth-of-type(6) {
+    grid-row: 6 / 7;
+}
+.user:nth-of-type(7) {
+    grid-row: 7 / 8;
+}
+.user:nth-of-type(8) {
+    grid-row: 8 / 9;
+}
+
+
 .footer {
     grid-area: footer;
     width: 100vw;
