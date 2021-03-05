@@ -138,7 +138,7 @@ img {
 .nav__item--5 {
     grid-column: 8;
 } */
-img {
+/* img {
     width: 20px;
     background-size: cover;
 }
@@ -146,6 +146,10 @@ img {
     width: 360px;
     height: 420px;
     background-color: lightgray;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
 }
 .nav {
     display: grid;
@@ -169,8 +173,8 @@ img {
  p {
     color: white;
     font-size: 15px;
-}
-.nav__item--3 {
+} */
+/* .nav__item--3 {
     grid-column: 6;
 }
 .nav__item--4 {
@@ -178,4 +182,4 @@ img {
 }
 .nav__item--5 {
     grid-column: 8;
-}
+} */
