@@ -255,3 +255,16 @@ h1 {
     font-weight: bold;
     color: #fff;
 }
+
+/*Tablet*/
+.tablet {
+    width: 768px;
+    height: 100vh;
+    display: grid;
+}
+/*Mobile*/
+.mobile {
+    width: 648px;
+    height: 100vh;
+    display: grid;
+}
