@@ -311,8 +311,89 @@ h1 {
 .mobile {
     margin-top: 20px;
     margin-left: 20px;
-    width: 640px;
+    background-color: lightgray;
+    width: 480px;
     height: 100vh;
     display: grid;
-    background-color: lightgray;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: 1fr;
+    gap: 2px;
+
+    grid-template-areas: "header"
+                         "hero"
+                         "menu"
+                         "main"
+                         "banner"
+                         "extra"
+                         "image";
 }
+.mobile .header {
+   grid-area: header;
+   background-color: mediumvioletred;
+   width: 100%;
+   width: 100%;
+}
+.mobile .header h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mobile .hero {
+    grid-area: hero;
+    background-color: yellow;
+    width: 100%;
+    width: 100%;
+ }
+ .mobile .header h1 {
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: bold;
+     color: #fff;
+ }
+
+ .mobile .menu {
+    grid-area: menu;
+    background-color: orangered;
+    width: 100%;
+    width: 100%;
+ }
+ .mobile .header h1 {
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: bold;
+     color: #fff;
+ }
+
+ 
+ .mobile .main {
+    grid-area: main;
+    background-color: indigo;
+    width: 100%;
+    width: 100%;
+ }
+
+ 
+ .mobile .banner {
+    grid-area: banner;
+    background-color: green;
+    width: 100%;
+    width: 100%;
+ }
+
+ 
+ .mobile .extra {
+    grid-area: extra;
+    background-color: purple;
+    width: 100%;
+    width: 100%;
+ }
+
+ 
+ .mobile .image {
+    grid-area: image;
+    background-color: blue;
+    width: 100%;
+    width: 100%;
+ }
