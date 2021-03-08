@@ -258,15 +258,61 @@ h1 {
 
 /*Tablet*/
 .tablet {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: lightskyblue;
     width: 768px;
     height: 100vh;
     display: grid;
-    background-color: mediumturquoise;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10% 40% 20% 15% 15%;
+    gap: 2px;
+    grid-template-areas: "header header header"
+                         "hero   hero   hero"
+                         "menu   main   main"
+                         "menu   banner banner"
+                         "menu   extra  image";
 }
+.tablet .header {
+    grid-area: header;
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+}
+.tablet .hero {
+    grid-area: hero;
+    width: 100%;
+    height: 100%;
+}
+.tablet .menu {
+    grid-area: menu;
+    background-color: limegreen;
+}
+.tablet .main {
+    grid-area: main;
+    background-color: red;
+}
+.tablet .banner {
+    grid-area: banner;
+    background-color: blue;
+}
+.tablet .extra {
+    grid-area: extra;
+    background-color: yellow;
+}
+.tablet .image {
+    grid-area: image;
+    background-color: purple;
+}
+
+
+
 /*Mobile*/
 .mobile {
+    margin-top: 20px;
+    margin-left: 20px;
     width: 640px;
     height: 100vh;
     display: grid;
-    background-color: mediumpurple;
+    background-color: lightgray;
 }
