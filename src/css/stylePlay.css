@@ -7,6 +7,7 @@ html {
     font-size: 62.5%;
 }
 body {
+    background-color: #ffffff;
     width: 100%;
     height: 100vh;
     
@@ -56,11 +57,13 @@ body {
 
 /*Main*/
 .main {
+    background-color: #ffffff;
     grid-area: main;
     display: grid;
     grid-template-columns: 40% 15% 15% 30%;
     grid-template-rows: 10% 45% 45%;
     gap: 2px;
+    margin: 0 10px;
 
     grid-template-areas: "text text text text"
                          "image1 image2 image3 image5"
@@ -72,6 +75,7 @@ body {
    justify-content: center;
    font-size: 30px;
    font-weight: bold;
+   opacity: .5;
 
 }
 .main .picture{
@@ -82,6 +86,7 @@ body {
     height: 100%;
     object-fit: cover;
     padding: 5px;
+    border-radius: 20px;
 }
 .main .image2 {
     grid-area: image2;
@@ -91,14 +96,116 @@ body {
  height: 100%;
  object-fit: cover;
  padding: 5px;
+ border-radius: 10px;
+}
+.main .image3 {
+    grid-area: image3;
+}
+.image3 img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ padding: 5px;
+ border-radius: 10px;
+}
+.main .image4 {
+    grid-area: image4;
+}
+.image4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+.main .image5 {
+    grid-area: image5;
+}
+.image5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+.main .image6 {
+    grid-area: image6;
+}
+.image6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 /*product*/
 .product {
+    background-color: #fff;
     grid-area: product;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 20px 1fr;
     gap: 2px;
+
+   grid-template-areas: "sub sub sub2 sub2"
+                        "pic1 pic2 pic3 pic4";
+}
+.product h1 {
+    grid-area: sub;
+    display: flex;
+   justify-content: center;
+   font-size: 15px;
+   opacity: .5;
+   font-weight: bold;
+}
+.product h2 {
+    grid-area: sub2;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    opacity: .5;
+    font-weight: bold;
+}
+.product .pic1 {
+    grid-area: pic1;
+}
+.pic1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+.product .pic2 {
+    grid-area: pic2;
+}
+.pic2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+.product .pic3 {
+    grid-area: pic3;
+}
+.pic3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+.product .pic4 {
+    grid-area: pic4;
+}
+.pic4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 /*Play*/
