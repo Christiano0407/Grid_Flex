@@ -261,10 +261,12 @@ h1 {
     width: 768px;
     height: 100vh;
     display: grid;
+    background-color: mediumturquoise;
 }
 /*Mobile*/
 .mobile {
-    width: 648px;
+    width: 640px;
     height: 100vh;
     display: grid;
+    background-color: mediumpurple;
 }
