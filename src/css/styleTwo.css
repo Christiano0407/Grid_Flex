@@ -41,12 +41,12 @@ p {
 
 .card {
     width: 500px;
-    height: 500px;
+    height: 550px;
     background-color: lightgrey;
-    border: 1px solid lightgrey;
+    border: 4px solid lightgrey;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 75px 1fr 50px 25px;
+    grid-template-rows: 75px 1fr 50px 50px;
     gap: 5px;
     grid-template-areas: "header header header header header"
                          "main   main   main   main   main "
@@ -116,23 +116,40 @@ p {
 
 footer {
     grid-area: footer;
+    height: 100%;
+    width: 100%;
     background-color:#fff;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
-.footer__parraf--1 {
+.items {
+    justify-self: center;
+    align-self: center;
+}
+.footer__cont--1 {
+    grid-area: footer;
     color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    grid-column: 1 / 2;
 }
-.footer__parraf--2 {
+.footer__cont--2 {
+    grid-area: footer;
   color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  grid-column: 2 / 3;
 }
-.footer__img--1 {
+.footer__cont--3 {
+    grid-area: footer;
+    grid-column: 4 / 5;
  
 }
-.footer__img--2 {
-
+.footer__cont--4 {
+    grid-area: footer;
+ grid-column: 5 / 6;
 }
 footer img {
-  width: 15px;
-  height: 15px;
+    width: 20px;
+    height: 20px;
 }
