@@ -6,3 +6,17 @@ Course Grid and Flexbox with Platzi
 
 # Estefany Aguilar
 [teffcode](https://linktr.ee/teffcode)
+
+# Special References
+
+[Una Kravets](https://twitter.com/Una)
+[Una Kravets](https://web.dev/one-line-layouts/)
+
+[ApuntesMajo](https://losapuntesdemajo.now.sh/)
+
+## Guides:
+[Majo](https://losapuntesdemajo.now.sh/)
+[WebDev](https://web.dev/one-line-layouts/)
+[CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+[Google](https://www.youtube.com/watch?v=qm0IfG1GyZU)
+
