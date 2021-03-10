@@ -30,4 +30,5 @@ body {
 .header p {
     font-size: 2.5rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
