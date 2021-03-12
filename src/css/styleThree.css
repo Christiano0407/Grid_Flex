@@ -17,13 +17,13 @@ body {
     font-family: sans-serif;
     background-color: darkgray;
 }
-/* .wrapper {
+ .wrapper {
     display: grid;
     height: 100vh;
     grid-template-rows: 60px 300px auto auto;
     background-color: rgb(155, 155, 155);
 }
-.header {
+/* .header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,11 +43,25 @@ body {
     border-radius: 20px;
     box-shadow:  10px 10px 30px #000, 
     -10px -10px 30px #fff;;
-}
-.card div p {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    box-shadow: 2px 2px 2px #000;
 } */
+/* .progress-bar div {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+background: #e0e0e0;
+box-shadow:  20px 20px 40px #9b9b9b,
+             -20px -20px 40px #ffffff;
+} */
+/* .botton div {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-radius: 19px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  9px 9px 12px #9f9f9f,
+                 -9px -9px 12px #ffffff;
+} */
+
