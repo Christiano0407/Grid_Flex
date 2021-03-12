@@ -21,7 +21,7 @@ body {
     display: grid;
     height: 100vh;
     grid-template-rows: 60px 300px auto auto;
-    background-color: lightgrey;
+    background-color: rgb(155, 155, 155);
 }
 .header {
     display: flex;
@@ -32,6 +32,7 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    color: white;
 }
 .card div {
     width: 250px;
