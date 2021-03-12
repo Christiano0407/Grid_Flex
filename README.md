@@ -20,4 +20,7 @@ Course Grid and Flexbox with Platzi
 [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 [Google](https://www.youtube.com/watch?v=qm0IfG1GyZU)
 [Neomorphism](https://neumorphism.io/#1a1919)
-
+[Generator](https://css3generator.com/)
+[Waves](https://getwaves.io/)
+[Animate](https://animate.style/)
+[ReferencesGrid](https://cssreference.io/)
