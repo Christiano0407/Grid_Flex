@@ -29,3 +29,4 @@ Course Grid and Flexbox with Platzi
 [Teffcode](https://teffcode-community.github.io/quizzes/)
 [lorempicsum](https://picsum.photos/)
 [masonryjs](https://masonry.desandro.com/)
+[imageloaded](https://imagesloaded.desandro.com/)
